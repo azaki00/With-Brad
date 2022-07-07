@@ -53,7 +53,9 @@ const addTask = (task) => {
   const [visible, setVisible] = useState(true);
 
   const pop = () =>{
+    console.log("visible");
     setVisible(!visible)
+    console.log("visible");
   } 
   return (
     <div className="container">
